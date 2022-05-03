@@ -2,7 +2,7 @@ body{
     font-family: 'Roboto', sans-serif; 
 }
 
-.container{
+main{
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
@@ -15,6 +15,9 @@ body{
 }
 
 header{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
     background-color: white;
     padding: 8px 20px;
     font-family: 'Roboto', sans-serif;
@@ -56,7 +59,7 @@ body{
     border-radius: 8px;
 }
 
-.section-2{
+.container-2{
     margin: auto;
     margin-top: 5px;
     width: 1050px;
