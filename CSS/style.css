@@ -21,15 +21,19 @@ header{
 }
 
 body{
-    background-color: #f9f6f6;
+    background-color: #f7f7f7;
     margin: auto;
+}
+
+.margin{
+    margin-left: 50px;
 }
 
 .buttons{
     margin: 0 auto;
-    margin-top: 50px;
-    width: 1050px;
-    padding: 30px;
+    margin-top: 35px;
+    width: 1080px;
+    padding: 15px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     background-color: white;
@@ -53,31 +57,99 @@ body{
 }
 
 .section-2{
-    margin: 0 auto;
-    margin-top: 50px;
+    margin: auto;
+    margin-top: 5px;
     width: 1050px;
     padding: 30px;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
     background-color: white;
 }
 
 .triangolo{
-    border-top: 10px solid black;
-    border-left: 10px solid transparent;
-    border-right: 10px solid transparent;
+    margin-left: 50px;
+    vertical-align: -18px;
+    border-top: 5px solid black;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
 }
 
-.centro-pagina-inf{
-    margin: 0 auto;
-    margin-top: 3px;
-    width: 1000px;
-    height: 600px;
-    background: white;
-    padding: 30px;
+.circle{
+    color: lightgreen;
+    background-color: white;
+    border-color: lightgreen;
+    border-radius: 50%;
+}
+
+.red-circle{
+    color: red;
+    background-color: white;
+    border-color: red;
+    border-radius: 50%;
+}
+
+#editorial{
+    font-size: smaller;
+    color: white;
+    background-color: #47adf1;
+    padding: 8px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
 }
 
+#goals{
+    font-size: smaller;
+    color: white;
+    background-color: #9c72e4;
+    padding: 8px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
 
+#recruiting{
+    font-size: smaller;
+    color: white;
+    background-color: #64c0a9;
+    padding: 8px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
 
+#mobile{
+    font-size: smaller;
+    color: white;
+    background-color: #f29e33;
+    padding: 8px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+#website{
+    font-size: smaller;
+    color: white;
+    background-color: #d863a1;
+    padding: 8px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+#sales{
+    font-size: smaller;
+    color: white;
+    background-color: #b0c926;
+    padding: 8px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
