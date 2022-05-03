@@ -66,29 +66,19 @@ body{
     background-color: white;
 }
 
-.triangolo{
-    margin-left: 50px;
-    vertical-align: -18px;
-    border-top: 5px solid black;
-    border-left: 5px solid transparent;
-    border-right: 5px solid transparent;
-}
-
 .circle{
     color: lightgreen;
-    background-color: white;
-    border-color: lightgreen;
+    border: solid lightgreen 1px;
     border-radius: 50%;
 }
 
 .red-circle{
     color: red;
-    background-color: white;
-    border-color: red;
+    border: solid red 1px;
     border-radius: 50%;
 }
 
-#editorial{
+.editorial{
     font-size: smaller;
     color: white;
     background-color: #47adf1;
