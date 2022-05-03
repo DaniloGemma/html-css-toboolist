@@ -1,27 +1,71 @@
-*{
+body{
+    font-family: 'Roboto', sans-serif; 
+}
+
+.container{
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
+}
+
+.logo-text{
+    font-size: 30px;
+    vertical-align: 15px;
+    display: inline-block;
 }
 
 header{
     background-color: white;
-    padding: 10px 20px;
+    padding: 8px 20px;
+    font-family: 'Roboto', sans-serif;
 }
 
 body{
     background-color: #f9f6f6;
+    margin: auto;
 }
 
-.centro-pagina{
+.buttons{
     margin: 0 auto;
     margin-top: 50px;
-    width: 1000px;
-    background: white;
+    width: 1050px;
     padding: 30px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
+    background-color: white;
+}
+
+.task{
+    background-color: #47adf1;
+    border-color: #47adf1;
+    color: white;
+    margin-left: 50px;
+    padding: 8px;
+    border-radius: 8px;
+}
+
+.add-section{
+    background-color: white;
+    border-color: #d9d9d9;
+    color: #d9d9d9;
+    padding: 8px;
+    border-radius: 8px;
+}
+
+.section-2{
+    margin: 0 auto;
+    margin-top: 50px;
+    width: 1050px;
+    padding: 30px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: white;
+}
+
+.triangolo{
+    border-top: 10px solid black;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
 }
 
 .centro-pagina-inf{
@@ -34,3 +78,6 @@ body{
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
 }
+
+
+
